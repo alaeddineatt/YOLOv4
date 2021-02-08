@@ -1,5 +1,5 @@
 # Object detection using YOLOv4 :
-##### in this project we tried with 6 classe acctualy you can do whatever you want darknet is open source and performant, in this case we have 6 ##### classes {masque, mal_mis, velo, trottinette , pas_de_masque)
+##### in this project we tried with 6 classe acctualy you can do whatever you want darknet is open source and performant, in this case we have 6  classes {masque, mal_mis, velo, trottinette , pas_de_masque)
 
 ## 2_Create_labels(1)
 ##### (1) the first step is getting data
