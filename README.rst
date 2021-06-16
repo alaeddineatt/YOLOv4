@@ -26,4 +26,4 @@ test with videos
 
 .. code-block:: bash 
 
-    !./darknet detector demo /content/drive/MyDrive/YOLOV4-multi-data/data_names/project.data /content/drive/MyDrive/YOLOV4-multi-data/cfg/yolov4.cfg /content/drive/MyDrive/YOLOV4-multi-data/weights/yolov4_last.weights -dont_show /content/drive/MyDrive/YOLOV4-multi-data/my_test_video/5_clip.mp4 -i 0 -out_filename /content/drive/MyDrive/YOLOV4-multi-data/my_test_video/results.avi
+    ./darknet detector demo /content/drive/MyDrive/YOLOV4-multi-data/data_names/project.data /content/drive/MyDrive/YOLOV4-multi-data/cfg/yolov4.cfg /content/drive/MyDrive/YOLOV4-multi-data/weights/yolov4_last.weights -dont_show /content/drive/MyDrive/YOLOV4-multi-data/my_test_video/5_clip.mp4 -i 0 -out_filename /content/drive/MyDrive/YOLOV4-multi-data/my_test_video/results.avi
