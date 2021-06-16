@@ -4,6 +4,7 @@ Object detection using YOLOv4 :
 
 2_Create_labels(1)
 ------------------
+
   1) the first step is getting data
   2) make some anotation on it identify the nember of classes you can use VGG anotator for that
   3) and the we do some data cleaning using panda
@@ -18,8 +19,11 @@ yolov4_myProject_(2)
   
 test with images 
 -----------------
+.. image:: test.gif
 
-![143923142_423536878890375_1162483937575691006_n](https://user-images.githubusercontent.com/74276606/106903837-ccdfac80-66fa-11eb-834e-c5df5b95be52.gif)
-#
-## test with videos
-!./darknet detector demo /content/drive/MyDrive/YOLOV4-multi-data/data_names/project.data /content/drive/MyDrive/YOLOV4-multi-data/cfg/yolov4.cfg /content/drive/MyDrive/YOLOV4-multi-data/weights/yolov4_last.weights -dont_show /content/drive/MyDrive/YOLOV4-multi-data/my_test_video/5_clip.mp4 -i 0 -out_filename /content/drive/MyDrive/YOLOV4-multi-data/my_test_video/results.avi
+test with videos
+-----------------
+
+.. code-block:: bash 
+
+    !./darknet detector demo /content/drive/MyDrive/YOLOV4-multi-data/data_names/project.data /content/drive/MyDrive/YOLOV4-multi-data/cfg/yolov4.cfg /content/drive/MyDrive/YOLOV4-multi-data/weights/yolov4_last.weights -dont_show /content/drive/MyDrive/YOLOV4-multi-data/my_test_video/5_clip.mp4 -i 0 -out_filename /content/drive/MyDrive/YOLOV4-multi-data/my_test_video/results.avi
