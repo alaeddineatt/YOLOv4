@@ -13,9 +13,9 @@ Object detection using YOLOv4 :
 yolov4_myProject_(2)
 --------------------
 
-  1) make sure that you have GPU, openCV and darknet 
+  1) dependencies GPU, openCV and darknet 
   2) and after that you can start training the model 
-  3) get predections and save it in csv files .csv in please remember that you can do anything in our case we did 3 types of submissions the first one  (pieton,masque,mal_mis) second one (trottinette,velo) le trosieme (pieton,velo)
+  3) get predections and save it in csv files ``.csv`` in please remember that you can do anything in our case we did 3 types of submissions the first one  (pieton,masque,mal_mis) second one (trottinette,velo) le trosieme (pieton,velo)
   
 test with images 
 -----------------
